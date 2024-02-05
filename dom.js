@@ -19,8 +19,8 @@ for (let counter = 1; counter <= 5; counter++) {
 and the background color of the container div to another. 
 8. Set to click event */
 document.querySelector("#change").addEventListener("click", () => {
-    const html = document.querySelector("html");
-    html.style.backgroundColor = "lightgrey";
+    const body = document.querySelector("body");
+    body.style.backgroundColor = "lightgrey";
 
     const divColor = document.querySelector("div");
     divColor.style.backgroundColor = "darkcyan";
