@@ -23,6 +23,7 @@ p1 {
 }
 
 img {
+    clear: both;
     margin: auto;
     size: 20%;
 }
