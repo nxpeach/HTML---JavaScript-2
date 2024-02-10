@@ -21,3 +21,13 @@ p1 {
     width: 40%;
     text-align: center;
 }
+
+img {
+    margin: auto;
+    size: 20%;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
