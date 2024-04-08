@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     )
 
-//Create BreadMaker class that takes the breadName parameter
+//Create BreadMaker class that takes the breadName and breadType parameter
 class BreadMaker {
     constructor(breadName, breadType) {
         this.breadName = breadName;
