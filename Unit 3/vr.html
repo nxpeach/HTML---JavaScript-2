@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    </head>
+    <body>
+
+        <a-scene>
+            <a-assets>
+            </a-assets>
+
+            <a-sky color="grey"></a-sky>
+            <a-cone color="#7bb08f" height="7" radius-bottom="2.6" position="0, 5, -6"></a-cone>
+            <a-torus-knot position="0, 0, -6" color="cyan" arc="20" p="2" q="7" radius="5" radius-tubular="0.1"></a-torus-knot>
+            <a-dodecahedron position="0, 0, -6" color="tan" radius="3"></a-dodecahedron>
+
+            <a-text value="Todd Howard" shader="sdf"></a-text>
+
+            <a-sphere color="blue" radius="0.3" position="1, 0.4, -4"></a-sphere>
+            <a-sphere color="blue" radius="0.3" position="-1, 0.4, -4"></a-sphere>
+
+            <a-light color="red" position="0 5 15"></a-light>
+
+            <a-entity light="type:directional; castShadow:true;" position="1 1 1"></a-entity>
+            <a-entity camera look-controls wasd-controls="acceleration:100" position="0 0 3" fly="true"></a-entity>
+        </a-scene>
+    </body>
+</html>
